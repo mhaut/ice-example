@@ -5,7 +5,7 @@ import Arithmetic
 
 status = 0
 ic = None
-IPdirection = "localhost"
+directionIP = "localhost"
 portDest = "12545"
 try:
     ic = Ice.initialize(sys.argv)
